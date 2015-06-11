@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BOX MODEL </title>
+<style >
+.box {  <!-- this is internal css for box -->
+  background:yellow;
+  border:2px solid  blue;
+  padding:10px;
+  margin:10px;
+  height:100px;
+  width:200px;
+  float: left;
+}
+  .box2 { <!-- this block is intrnl css for box2 -->
+    background:linen;
+    border:2px solid  blue;
+    padding:10px;
+    margin:10px;
+    height:100px;
+    width:200px;
+    float: left;
+}
+p {
+  <!-- this block is internal css for below tex....add /* */ to float and width u vil know the difference when u execute this in web -->
+  background:orange;
+  float: left;
+  width:300px;
+}
+</style>
+  </head>
+  <body>
+    <div class="box">  <!-- this is div block all the intrnl css comands executed in this block for box n for box 2 it vill execute for second dviv box -->
+          hi am dheeraj
+
+
+    </div>
+    <div class="box2">
+      hi am dheeraj
+
+    </div>
+    <div class="box">
+      hi am dheeraj
+
+    </div>
+
+<p>  <!-- this is the block for which the p{} block vil b  executed -->
+  some txt.spme txt some othr txtsome txt.spme txt some othr txtsome txt.spme txt some othr txtsome txt.spme txt some othr txtsome txt.spme txt some othr txtsome txt.spme txt some othr txtsome txt.spme txt some othr txtsome txt.spme txt some othr txtsome txt.spme txt some othr txtsome txt.spme txt some othr txtsome txt.spme txt some othr txtsome txt.spme txt some othr txtsome txt.spme txt some othr txt
+</p>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+.sideheading{
+  display:inline-block;
+  width:300px;
+}
+.color{
+  display:inline-block;
+  color:green;
+  width:300px;
+}
+.start{
+  display: inline-block;
+  color: blue;
+  font-style: italic;
+  font-family: fantasy;
+  font-weight: 300;
+}
